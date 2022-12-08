@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ComicBookCollection.API", "ComicBookCollection.API\ComicBookCollection.API.csproj", "{5A4924CA-FC3A-477C-B84C-47B326D4915A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ComicBookCollection.IoC", "ComicBookCollection.IoC\ComicBookCollection.IoC.csproj", "{C3AD0952-82AA-4075-A2A7-55878E29031B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ComicBookCollection.CrossCutting", "ComicBookCollection.CrossCutting\ComicBookCollection.CrossCutting.csproj", "{83B5DDB8-B1B6-40A7-8522-3810620713CB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ComicBookCollection.Data", "ComicBookCollection.Data\ComicBookCollection.Data.csproj", "{C03D06EE-74D5-468A-93CF-380881A14C0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComicBookCollection.Business", "ComicBookCollection.Business\ComicBookCollection.Business.csproj", "{EFACE146-9E55-4D81-91ED-F36F795A6BEC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{B439BB79-478D-4B7D-8CB9-E1DB2C73069D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Backend", "Backend", "{E3F6C035-B080-4ABB-93C6-90124D4C3240}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A4924CA-FC3A-477C-B84C-47B326D4915A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A4924CA-FC3A-477C-B84C-47B326D4915A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A4924CA-FC3A-477C-B84C-47B326D4915A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A4924CA-FC3A-477C-B84C-47B326D4915A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3AD0952-82AA-4075-A2A7-55878E29031B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3AD0952-82AA-4075-A2A7-55878E29031B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3AD0952-82AA-4075-A2A7-55878E29031B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3AD0952-82AA-4075-A2A7-55878E29031B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83B5DDB8-B1B6-40A7-8522-3810620713CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83B5DDB8-B1B6-40A7-8522-3810620713CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83B5DDB8-B1B6-40A7-8522-3810620713CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83B5DDB8-B1B6-40A7-8522-3810620713CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C03D06EE-74D5-468A-93CF-380881A14C0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C03D06EE-74D5-468A-93CF-380881A14C0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C03D06EE-74D5-468A-93CF-380881A14C0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C03D06EE-74D5-468A-93CF-380881A14C0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFACE146-9E55-4D81-91ED-F36F795A6BEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFACE146-9E55-4D81-91ED-F36F795A6BEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFACE146-9E55-4D81-91ED-F36F795A6BEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFACE146-9E55-4D81-91ED-F36F795A6BEC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5A4924CA-FC3A-477C-B84C-47B326D4915A} = {B439BB79-478D-4B7D-8CB9-E1DB2C73069D}
+		{C3AD0952-82AA-4075-A2A7-55878E29031B} = {E3F6C035-B080-4ABB-93C6-90124D4C3240}
+		{83B5DDB8-B1B6-40A7-8522-3810620713CB} = {E3F6C035-B080-4ABB-93C6-90124D4C3240}
+		{C03D06EE-74D5-468A-93CF-380881A14C0D} = {E3F6C035-B080-4ABB-93C6-90124D4C3240}
+		{EFACE146-9E55-4D81-91ED-F36F795A6BEC} = {E3F6C035-B080-4ABB-93C6-90124D4C3240}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {22B1D527-3221-4613-A711-C2EF0D133E5C}
+	EndGlobalSection
+EndGlobal

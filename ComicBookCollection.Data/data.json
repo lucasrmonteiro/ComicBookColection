@@ -1,0 +1,22 @@
+[
+  {
+    "Id": "896e373f-bc31-4d1c-b0e3-4623b8362d13",
+    "Title": "kingdom Come",
+    "PublishingCompany": "DC"
+  },
+  {
+    "Id": "8b506b0a-892b-4e4c-9122-19ae20ec1501",
+    "Title": "Civil War",
+    "PublishingCompany": "Marvel"
+  },
+  {
+    "Id": "6f94c344-2399-463b-84e2-1d71c1f4383c",
+    "Title": "Sandman",
+    "PublishingCompany": "Vertigo"
+  },
+  {
+    "Id": "e7e1061c-e963-473f-910b-fe5063241e33",
+    "Title": "Moby Dick",
+    "PublishingCompany": "PN"
+  }
+]
